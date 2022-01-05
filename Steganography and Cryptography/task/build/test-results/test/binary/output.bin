@@ -1,0 +1,34 @@
+[1;31m
+Start test 1[0m
+Task (hide, show, exit):
+> hide
+Input image file:
+> test/testimage.png
+Output image file:
+> test/out.png
+Message to hide:
+$> Hyperskill steganography program.
+%Message saved in test/out.png image.
+Task (hide, show, exit):
+> show
+Input image file:
+> test/out.png
+	Message:
+"Hyperskill steganography program.
+Task (hide, show, exit):
+> exit
+Bye!
+[1;31m
+Start test 2[0m
+Task (hide, show, exit):
+> hide
+Input image file:
+> test/small.png
+Output image file:
+> test/out2.png
+Message to hide:
+$> Hyperskill steganography program.
+:The input image is not large enough to hold this message.
+Task (hide, show, exit):
+> exit
+Bye!

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SteganographyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-05T20:49:05" hostname="FoxMacPro.local" time="1.211">
+  <properties/>
+  <testcase name="start" classname="SteganographyTest" time="1.211"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Task (hide, show, exit):
+> hide
+Input image file:
+> test/testimage.png
+Output image file:
+> test/out.png
+Message to hide:
+> Hyperskill steganography program.
+Message saved in test/out.png image.
+Task (hide, show, exit):
+> show
+Input image file:
+> test/out.png
+Message:
+Hyperskill steganography program.
+Task (hide, show, exit):
+> exit
+Bye!
+?[1;31m
+Start test 2?[0m
+Task (hide, show, exit):
+> hide
+Input image file:
+> test/small.png
+Output image file:
+> test/out2.png
+Message to hide:
+> Hyperskill steganography program.
+The input image is not large enough to hold this message.
+Task (hide, show, exit):
+> exit
+Bye!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
